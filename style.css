@@ -1,0 +1,117 @@
+body {
+  background-color: hsl(275, 100%, 97%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  user-select: none;
+}
+.background-img {
+  height: 350px;
+  width: 1520.2px;
+  margin: 0px;
+  background: url(material/background-pattern-desktop.svg);
+}
+main {
+  display: flex;
+  position: sticky;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 100%);
+  width: 600px;
+  height: 500px;
+  margin-top: -150px;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.header p {
+  font-family: work sans;
+  color: hsl(292, 42%, 14%);
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0px;
+}
+.div-FAQ {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 730px;
+  width: 600px;
+  margin: 0px;
+}
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width: 600px;
+  height: 60px;
+  margin: 0px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  transition: 0.35s;
+}
+.FAQ div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  margin: 0px;
+}
+.FAQ div p {
+  display: flex;
+  font-size: 17px;
+  font-weight: 600;
+  color: hsl(292, 42%, 14%);
+  transition: 0.15s;
+}
+.FAQ div button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  border: none;
+  transition: 0.15s;
+}
+.FAQ div button:hover {
+  cursor: pointer;
+}
+.FAQ div button:active {
+  transform: scale(0.9);
+}
+.FAQ div p:hover {
+  cursor: pointer;
+  color: hsl(292, 16%, 49%);
+}
+.FAQ p {
+  color: gray;
+  width: 510px;
+  font-family: work sans;
+  line-height: 25px;
+  margin: 0px;
+}
+.answer-p {
+  visibility: hidden;
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+  transition: 0.15s;
+}
